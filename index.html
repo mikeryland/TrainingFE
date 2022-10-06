@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainingFE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/a8a630eba0.js" crossorigin="anonymous"></script>
+    <script src="https://example.com/fontawesome/v6.2.0/js/fontawesome.js" data-auto-replace-svg="nest"></script>
+    <script src="https://example.com/fontawesome/v6.2.0/js/solid.js"></script>
+    <script src="https://example.com/fontawesome/v6.2.0/js/brands.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="body">
+
+        <!-- PROFILE -->
+        <div class="profile">
+            <div class="notification">
+                <!-- <fa-icon [icon]="faBell"></fa-icon> -->
+                <i class="fa-regular fa-bell"></i>
+                <p class="notifnumber">10</p>
+            </div>
+
+            <div class="userprofile">
+                <div class="userpic">
+                    <!-- <fa-icon [icon]="faUser"></fa-icon> -->
+                    <i class="fa-regular fa-user"></i>
+
+                </div>
+                <div class="name">
+                    <p class="username">Damian</p>
+                    <p class="position">Staff Employee</p>
+                </div>
+            </div>
+            <button class="createbutton">
+                <!-- <fa-icon [icon]="faPlus"></fa-icon> -->
+                <i class="fa-solid fa-plus"></i>
+                CREATE
+            </button>
+        </div>
+
+        <!-- TABLE -->
+        <div class="content" role="main">
+            <div>
+
+                <h2>Employee</h2>
+
+                <table class="table">
+                    <thead class="thead">
+
+                        <th>USER LOGIN</th>
+                        <th>NAME</th>
+                        <th>ROLE</th>
+                        <th>STATUS</th>
+                        <th>ACTION</th>
+                    </thead>
+                    <tbody style="border-spacing: 0 0.1em;">
+
+                        <tr>
+                            <td class="search">
+                                <input type="text" placeholder="Search user login">
+                            </td>
+                            <td class="search">
+                                <input type="text" placeholder="Search name">
+                            </td>
+                            <td class="search">
+                                <input type="text" placeholder="Search role">
+                            </td>
+                            <td class="search">
+                                <input type="text" placeholder="Search status">
+                            </td>
+                            <td class="search">
+                                <div class="searchtoolbar">
+                                    <button class="clearbutton">
+                                        <!-- <fa-icon [icon]="faX"></fa-icon> -->
+                                        <i class="fa-solid fa-x"></i>
+                                        Clear
+                                    </button>
+                                    <button class="searchbutton">
+                                        <!-- <fa-icon [icon]="faSearch"></fa-icon> -->
+                                        <i class="fa-solid fa-search"></i>
+                                        Search
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Denia.GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Deniar Rahaya</p>
+                            </td>
+                            <td>
+                                <p>Admin</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Sania.GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Sania Ayu</p>
+                            </td>
+                            <td>
+                                <p>Admin Purchasing</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr style="background-color: #d6eef8;">
+                            <td>
+                                <p>Ayu.GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Ayu Narasa</p>
+                            </td>
+                            <td>
+                                <p>Leader Operation</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Data -->
+                        <tr>
+                            <td>
+                                <p>Sarah12_GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Aisyah Sarah</p>
+                            </td>
+                            <td>
+                                <p>Supervisor</p>
+                            </td>
+                            <td>
+                                <p>Non Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Ismail97_GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Ismail Ahmad</p>
+                            </td>
+                            <td>
+                                <p>Supervisor</p>
+                            </td>
+                            <td>
+                                <p>Non Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Ola_rahmanGF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Aulia Olanara</p>
+                            </td>
+                            <td>
+                                <p>Supervisor</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>lis_01GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Ayu Iis</p>
+                            </td>
+                            <td>
+                                <p>Supervisor</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Qifar.GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Qifar Jaenudin</p>
+                            </td>
+                            <td>
+                                <p>Supervisor</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Rayaahmad_GF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Raya Ahmad</p>
+                            </td>
+                            <td>
+                                <p>Manager</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>UtaGF@gmail.com</p>
+                            </td>
+                            <td>
+                                <p>Uta harahap</p>
+                            </td>
+                            <td>
+                                <p>Manager</p>
+                            </td>
+                            <td>
+                                <p>Active</p>
+                            </td>
+                            <td>
+                                <div class="toolbar">
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faEdit"></fa-icon> -->
+                                        <i class="fa-solid fa-pen-to-square"></i>
+
+                                        Edit
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faMagnifyingGlass"></fa-icon> -->
+                                        <i class="fa-solid fa-eye"></i>
+
+                                        View
+                                    </button>
+                                    <button class="toolbarbutton">
+                                        <!-- <fa-icon [icon]="faTrash"></fa-icon> -->
+                                        <i class="fa-solid fa-trash"></i>
+                                        Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+                <div class="footertable">
+                    <button class="buttonshowpage">Show 10
+                        <!-- <fa-icon [icon]="faChevronDown"></fa-icon> -->
+                        <i class="fa-solid fa-chevron-down"></i>
+
+
+                    </button>
+
+                    <div class="footerright">
+
+                        <div class="pagination">
+                            <a class="active" href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">...</a>
+                            <a href="#">11</a>
+                        </div>
+                        <div class="nextcontainer">
+                            <button class="buttonnextpage">Next</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

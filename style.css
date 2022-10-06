@@ -1,0 +1,282 @@
+/* You can add global styles to this file, and also import other style files */
+.body {
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+
+  }
+  .profile {
+    width:20%;
+    margin-left: auto;
+    text-align: right;
+
+  }
+
+  .notification{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #333333;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    float: left;
+    margin-top: 2%;
+  }
+
+  .notifnumber{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: lightseagreen;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+  }
+
+  .userprofile {
+    width: 60%;
+    float:right;
+    margin-right: 15%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(57, 167, 222, 0.2);
+  }
+
+  .userpic {
+    background-color: darksalmon;
+
+    background-size: 50% auto;
+    border-radius: 50%;
+    font-size: 20px;
+    float: left;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .name {
+    text-align: left;
+    width: 70%;
+    float: right;
+    
+  }
+  .username{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .position {
+    font-size: 14px;
+  }
+
+  .createbutton {
+    background-color: hsl(228, 100%, 50%);
+    width: 35%;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+    padding: 3%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+    text-align: center; 
+    border-width: 1px;
+    color: white;
+    border-color: lightblue;
+
+ }
+
+  h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    float: left;
+    margin-left: 3%;
+  }
+
+  .table {
+    width: 95%;
+    font-size: 12px;
+    border-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 0 1px; /* this is the ultimate fix */
+
+  }
+
+  .search {
+    background-color: #d6eef8;
+    padding-right: 0px;
+    padding: 1%;
+  }
+
+  input{
+    padding: 3%;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .searchtoolbar{
+    text-align: left;
+    width: 80%;
+  }
+
+  .clearbutton {
+    background-color: rgb(232, 73, 73);
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    border-color: lightblue;
+    font-size: 12px;
+    float: left;
+  }
+
+  .searchbutton{
+    background-color: whitesmoke;
+    padding: 5%;
+    color: lightblue;
+    border-color: rgb(71, 127, 146);
+    font-size: 12px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 5%;
+    float: right;
+  }
+  .toolbar {
+    width: 100%;
+    margin: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+  .toolbarbutton{
+    width: 30%;
+    border-radius: 5px;
+    margin: 1%;
+    text-align: left;
+    padding: 3%;
+    border-width: 0px;
+  }
+
+  thead {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    border-width: 0px;
+    border-collapse: collapse;
+  }
+
+  th{
+    border-width: 0px;
+    font-size: 15px;
+    padding: 1%;
+    background-color: white;
+  }
+
+  tr {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+  }
+
+  tr:hover {
+    background-color: #d6eef8;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }  
+
+  td{
+    text-align: left;
+    /* background-color: white; */
+    /* background-color: #d6eef8; */
+  }
+
+  td:first-child { 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  td:last-child { 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+  }
+
+  p{
+    margin-left: 5%;
+  }
+
+  tbody {
+    text-align: center;
+  border-radius: 10px;    
+  }
+
+  .footertable{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttonshowpage{
+      padding: 10px;
+      border-color: rgb(41, 124, 175);
+      border-radius: 5px;
+      color: rgb(41, 124, 175);
+  }
+
+  .footerright{
+    float: right;
+  }
+
+  .nextcontainer{
+    float: right;
+  }
+  .buttonnextpage{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: rgb(41, 124, 175);
+    border-radius: 5px;
+    color: rgb(41, 124, 175);
+    float: right;
+}
+
+  /* pagination */
+  .pagination {
+    display: inline-block;
+    float: left;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+  
+  .pagination a.active {
+    background-color:hsl(228, 100%, 50%);
+    color: white;
+  }
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {}
+
+  @media screen and (max-width: 575px) {}
+
